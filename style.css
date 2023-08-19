@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272727;
+  color: CanvasText;
+  font-family: system-ui, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  /* border: 1px solid #a8a9a7; */
+}
+
+h1 {
+  color: #a8a9a7;
+  padding: 1.4rem 0 .4rem 0;
+  text-align: center;
+  text-decoration: underline #a00000;
+}
+
+.yt-logo {
+  color: #a00000;
+}
+
+form {
+  display: flex;
+}
+
+#url {
+  width: 100%;
+  margin: .5rem;
+  padding: .4rem;
+}
+
+#btn-convert {
+  margin: .5rem;
+  padding: .4rem;
+}
+
+#result {
+  padding: 1.5rem .5rem;
+  display: flex-block;
+
+}
+
+h2 {
+  color: #a00000;
+  font-size: 1.8rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.error {
+  text-decoration: underline #a00000 wavy;
+}
+
+.size {
+  color: #a8a9a7;
+  font-size: .6rem;
+  display: inline-block;
+  width: 7rem;
+  height: 2rem;
+  padding: 0 3rem 0 .4rem;
+}
+
+.description {
+  color: #a8a9a7;
+  font-size: 2rem;
+  display: inline;
+}
+
+.link {
+  background-color: #f37a2a;
+  display: inline-block;
+  width: 9rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: #1f1e1e;
+  font-size: 1.5rem;
+  border: 1px solid #3c3c3c;
+}
+
+.link:hover {
+  background-color: #a00000;
+  color: #ffffff;
+}
